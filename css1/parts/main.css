@@ -1,0 +1,154 @@
+.information-text{
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 40px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.mem{
+        opacity: 1;
+        color: #000;
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0;
+}
+.mem:hover{
+    opacity: 1;
+}
+
+.information-text-info{
+    margin-bottom: 24px;
+}
+
+.information-media{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 1%;
+    height: 100%;
+    background-color: #fff;
+    max-width: 1100px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+img{
+    border-radius: 25px;
+}
+
+#lightSlider {
+    margin: 0 auto;
+}
+
+#lightSlider .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+#lightSlider .center img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+iframe{
+    border-radius: 15px;
+}
+
+#lightSlider .center video {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.information-profile{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 50px;
+}
+
+.information-profile-avatar{
+    width: 239px;
+    height: 239px;
+    background-color: #fff;
+    border-radius: 25px;
+    overflow:hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.other_inf{
+    margin-left: 50px;
+    height: 239px;
+}
+
+.information-profile-name_data{
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 20px 30px 25px 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.information-profile-audiences-data{
+    padding: 25px 30px 25px 30px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.about{
+    margin-bottom: 32px;
+}
+
+.information-avatar{
+    width: 239px;
+    align-items: center;
+}
+
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .information-profile{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .information-profile-avatar{
+        width: 100%;
+        height: 100%;
+    }
+
+    .information-avatar{
+        width: 100%;
+        height: 100%;
+    }
+
+    .other_inf{
+        margin-top: 20px;
+        margin-left: 0;
+        height: 239px;
+    }
+}
+  
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  
+}
+  
+/* Small phones */
+@media (max-width: 320px) {
+  
+} 
